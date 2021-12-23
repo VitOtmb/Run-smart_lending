@@ -4,7 +4,7 @@
 }
 
 .container {
-   width: 942px;
+   max-width: 942px;
    margin: 0 auto;
 }
 
@@ -14,3 +14,4 @@
 @import "components/header";
 @import "components/buttons";
 @import "components/advantage";
+@import "base/media";
