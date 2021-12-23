@@ -1,5 +1,16 @@
 * {
    font-family: "Museo Sans Cyrl", sans-serif;
+   box-sizing: border-box;
 }
 
-@import "fonts";
+.container {
+   width: 942px;
+   margin: 0 auto;
+}
+
+@import "base/variables";
+@import "components/fonts";
+@import "components/promo";
+@import "components/header";
+@import "components/buttons";
+@import "components/advantage";

@@ -2,11 +2,11 @@
   "name": "uber_lending",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "VitMach",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.7",
