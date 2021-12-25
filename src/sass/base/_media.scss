@@ -60,7 +60,7 @@
 
 @media (max-width: 576px){
    .container {
-      max-width: 310px;
+      max-width: 315px;
    }
    .header {
       &__logo {
@@ -76,6 +76,9 @@
          width: 220px;
          font-size: 13px;
          margin-top: 65px;
+      }
+      &_consultation {
+         width: 300px;
       }   
    }
    .promo{
@@ -96,6 +99,17 @@
       &__wrp {
          display: block;
          margin-top: 10px;
+      }
+   }
+   .consultation {
+      height: 532px;
+      padding: 40px 0 40px 0;
+      .title_consultation {
+         font-size: 24px;
+         line-height: 32px;
+      }
+      &__descrip {
+         font-size: 16px;
       }
    }
 }
