@@ -6,6 +6,7 @@
 .container {
    max-width: 942px;
    margin: 0 auto;
+   position: relative;
 }
 
 @import "base/variables";
@@ -14,6 +15,7 @@
 @import "components/header";
 @import "components/buttons";
 @import "components/advantage";
-@import "components/_consultation.scss";
+@import "components/_consultation";
 @import "components/forms";
+@import "components/karousel";
 @import "base/media";

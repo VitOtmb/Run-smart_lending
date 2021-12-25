@@ -12,7 +12,20 @@
       &_main {
          font-size: 13px;
       }
-   }  
+   }
+   .karousel {
+      padding: 80px 0 80px 0;
+      .prev, .next {
+         display: none;
+      }
+      .tns-nav {
+         display: block;
+         text-align: center;
+         &-active {
+            background-color: $maincolor;
+         }
+      }  
+   }
 }
 
 @media (max-width: 768px) {
@@ -54,6 +67,15 @@
       }
       &__item {
          margin-top: 30px;
+      }
+   }
+   .karousel {
+      padding: 50px 0 40px 0;
+      img {
+         width: 100%;
+      }
+      .tns-nav {
+         margin-top: 15px;
       }
    }
 }
@@ -107,9 +129,21 @@
       .title_consultation {
          font-size: 24px;
          line-height: 32px;
+         text-align: center;
+         padding: 0 5px;
       }
       &__descrip {
          font-size: 16px;
+         text-align: center;
+         padding: 0 5px;
+         line-height: 20px;
+      }
+      .feed-form {
+         margin: 30px;
+      }
+      .button_consultation {
+         width: 255px;
+         
       }
    }
 }

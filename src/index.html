@@ -5,6 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/style.min.css">
    <title>Run_smart</title>
@@ -85,9 +86,34 @@
             <input name="phone" required type="phone" placeholder="Ваш телефон">
             <input name="email" required type="email" placeholder="Ваш E-mail">
 
-            <button class="button button_consultation">заказать кОНСУЛЬТАЦИЮ</button>
+            <button class="button button_consultation">заказать консультацию</button>
          </form>
       </div>
    </section>
+
+   <section class="karousel">
+      <div class="container">
+         <div class="karousel__slider">
+            <div>
+               <img src="image/content_img/slide_1.png" alt="slide">
+            </div>
+            <div>
+               <img src="image/content_img/slide_2.png" alt="slide">
+            </div>
+            <div>
+               <img src="image/content_img/slide_3.png" alt="slide">
+            </div>
+         </div>
+         <button type="button" class="prev">
+            <img src="icons/left_slides.png" alt="left_slides">
+         </button>
+         <button type="button" class="next">
+            <img src="icons/right_slides.png" alt="right_slides">
+         </button>
+      </div>
+   </section>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+   <script src="js/slider.js"></script>
 </body>
 </html>
