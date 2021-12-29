@@ -26,6 +26,9 @@
          }
       }  
    }
+   .catalog__content {
+      justify-content: center;
+   }
 }
 
 @media (max-width: 768px) {
@@ -76,6 +79,18 @@
       }
       .tns-nav {
          margin-top: 15px;
+      }
+   }
+   .catalog {
+      padding-bottom: 20px;
+      .title_catalog {
+         font-size: 23px;
+      }
+      &__tabs {
+         margin: 25px 0 30px 0;
+      }
+      &-item {
+         margin-bottom: 25px;
       }
    }
 }
@@ -144,6 +159,23 @@
       .button_consultation {
          width: 255px;
          
+      }
+   }
+   .catalog {
+      padding-bottom: 20px;
+      .title_catalog {
+         font-size: 24px;
+      }
+      &__tab {
+         font-size: 9px;
+         width: 85px;
+         height: 40px;
+         &:nth-child(2) {
+            padding-top: 15px;
+         }
+         &:nth-child(3) {
+            padding-top: 15px;
+         }
       }
    }
 }
