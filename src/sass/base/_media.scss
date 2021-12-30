@@ -26,6 +26,9 @@
          }
       }  
    }
+   .catalog {
+      padding-bottom: 50px;
+   }
    .catalog__content {
       justify-content: center;
    }
@@ -176,6 +179,32 @@
          &:nth-child(3) {
             padding-top: 15px;
          }
+      }
+   }
+   .reviews {
+      padding: 0 0 20px 0;
+      .title_reviews {
+         font-size: 24px;
+         margin-bottom: 30px;
+      }
+      &__item {
+         display: block;
+      }
+      &__img {
+         width: 100px;
+         height: 100px;
+         margin: 0 auto;
+         display: block;
+         margin-bottom: 25px;
+         img {
+            width: 100%;
+         }
+      }
+      &__content {
+         text-align: center;
+      }
+      &__text {
+         font-size: 14px;
       }
    }
 }
