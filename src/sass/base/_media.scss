@@ -22,7 +22,7 @@
          display: block;
          text-align: center;
          &-active {
-            background-color: $maincolor;
+            background-color: $mainColor;
          }
       }  
    }
@@ -56,7 +56,6 @@
       }
    }
    .button {
-      width: 200px;
       margin-top: 10px;
       &_main {
          margin-top: 65px;
@@ -206,5 +205,16 @@
       &__text {
          font-size: 14px;
       }
+   }
+   .footer__contacts {
+      max-width: 295px;
+   }
+   .overlay {
+      .modal {
+         width: 75%;
+      }
+      .button_consultation {
+         width: 100%;
+      }   
    }
 }
